@@ -69,8 +69,8 @@ Follow these steps to run the Currency Exchange Rate Analysis Dashboard locally:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/currency-exchange-dashboard.git
-   cd currency-exchange-dashboard
+   [git clone https://github.com/yourusername/currency-exchange-dashboard.git
+   cd currency-exchange-dashboard](https://github.com/AnshikaPandita/CumminsPune-Team10-Curre)
    
 2. Install the required dependencies:
 
