@@ -19,6 +19,7 @@ Create a dashboard that allows users to analyze the exchange rates between two c
 - [pandas](https://pandas.pydata.org/)
 - [Streamlit](https://streamlit.io/)
 - [plotly-express](https://plotly.com/python/plotly-express/)
+- [glob](Lib/glob.py)
 - Code Editor: [VS Code](https://code.visualstudio.com/)
 
 ### Functional Tasks
