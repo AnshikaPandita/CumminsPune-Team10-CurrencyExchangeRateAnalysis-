@@ -53,7 +53,8 @@ Exchange Rate dataset is provided in a CSV file format, containing exchange rate
 3. Code is supplemented with automation tests.
 4. Utilized Streamlit for the user interface.
 
-###Work On Project In Future
+### Work On Project In Future
+
 - Users have the option to select weekly, monthly, quarterly, and yearly charts.
 - The dashboard displays the date on which the rate was at its peak (highest) and the date on which it was at its lowest i.e.MIN-MAX values.
 - Provide option to select currency-1 also as any currency rather than populating it as USD
