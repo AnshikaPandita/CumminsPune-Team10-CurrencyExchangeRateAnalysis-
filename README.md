@@ -26,7 +26,7 @@ Create a dashboard that allows users to analyze the exchange rates between two c
 
 -  Read and store the data from the file.
 -  Create a user interface allowing users to select currency and desired duration.
--  Users can Daily charts.
+-  Users can view Daily charts.
 -  Fetch data for the given currency and time duration, showing the trend.
 ### Input
 
