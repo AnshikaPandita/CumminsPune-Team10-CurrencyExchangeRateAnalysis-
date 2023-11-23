@@ -26,43 +26,6 @@ def fill_missing_data():
         print(data_frame)
         data_frame.to_csv(file_path, index=False)
 
-# Function to get monthly data
-def get_monthly_data(data_frame, selected_option):
-    selected_data = data_frame[['Date', selected_option]].copy()
-    selected_data['month'] = pd.to_datetime(selected_data['Date']).dt.month
-    average_data = selected_data.groupby('month')[selected_option].mean()
-    average_data = average_data.to_frame()
-    average_data['mon'] = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
-
-    monthly_data = average_data.set_index('mon')[[selected_option]].copy()
-    return monthly_data
-
-# Function to get quarterly data
-def get_quarterly_data(data_frame, selected_option):
-    selected_data = data_frame[['Date', selected_option]].copy()
-    selected_data['quarter'] = pd.to_datetime(selected_data['Date']).dt.quarter
-    quarterly_data = selected_data.groupby('quarter')[selected_option].mean()
-
-    result_dataframe = pd.DataFrame({
-        'quarter': range(1, 5),
-        'val': quarterly_data.values
-    })
-
-    return result_dataframe
-
-# Function to get yearly data
-def get_yearly_data(data_frame, selected_option):
-    years = ['2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022']
-    yearly_values = []
-
-    for year in years:
-        file_path = f"Exchange_Rate_Report_{year}.csv"
-        data_frame = pd.read_csv(file_path)
-        yearly_values.append(data_frame[selected_option].mean())
-
-    yearly_values_df = pd.DataFrame(yearly_values, index=years, columns=[selected_option])
-    return yearly_values_df
-
 # Main function
 def main():
     st.set_page_config(page_title="Exchange Rate Analysis", page_icon=":bar_chart:", layout="wide")
