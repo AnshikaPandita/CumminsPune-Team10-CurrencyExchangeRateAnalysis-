@@ -41,9 +41,9 @@ Exchange Rate dataset is provided in a CSV file format, containing exchange rate
 ### Preview
 
 
-![image](https://github.com/AnshikaPandita/CumminsPune-Team10-CurrencyExchangeRateAnalysis-/assets/96713901/498fbd26-91c1-4b5f-967d-239336ff3fed)
-![image](https://github.com/AnshikaPandita/CumminsPune-Team10-CurrencyExchangeRateAnalysis-/assets/96713901/4b01ed83-893a-4c58-b224-ab9a1dded990)
-![image](https://github.com/AnshikaPandita/CumminsPune-Team10-CurrencyExchangeRateAnalysis-/assets/96713901/0562cbab-9f8d-47d8-a894-983e7364d7f5)
+![image](https://github.com/AnshikaPandita/CumminsPune-Team10-CurrencyExchangeRateAnalysis-/assets/96713901/da3ccdf2-2325-4215-a50c-df69b3b86e56)
+![image](https://github.com/AnshikaPandita/CumminsPune-Team10-CurrencyExchangeRateAnalysis-/assets/96713901/75f4f0f0-e602-411c-b395-0391e21c42d3)
+![image](https://github.com/AnshikaPandita/CumminsPune-Team10-CurrencyExchangeRateAnalysis-/assets/96713901/a1c16f3b-d7b0-4415-b27e-2baf052c4d25)
 
 ### Recommendations/Guidelines
 
