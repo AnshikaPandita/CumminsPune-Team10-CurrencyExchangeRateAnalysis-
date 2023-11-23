@@ -65,23 +65,25 @@ Exchange Rate dataset is provided in a CSV file format, containing exchange rate
 
 Follow these steps to run the Currency Exchange Rate Analysis Dashboard locally:
 
+
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/yourusername/currency-exchange-dashboard.git
    cd currency-exchange-dashboard
    
-2.Install the required dependencies:
+2. Install the required dependencies:
 
    ```bash
    pip install -r requirements.txt 
-```
+
+
 3. Run the Streamlit app:
 
      ```bash
    streamlit run app.py
 
- Open your web browser and go to http://localhost:8501 to access the app.
+4. Open your web browser and go to http://localhost:8501 to access the app.
 
 
 
